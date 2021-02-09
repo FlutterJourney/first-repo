@@ -12,10 +12,10 @@ class MyDrawer extends StatelessWidget {
         child: ListView(
           children: [
             UserAccountsDrawerHeader(
-              accountName: Text('Said Mehenni - Flutter developer'),
-              accountEmail: Text('said.mehenni@gmail.com'),
+              accountName: Text('test test - Flutter developer'),
+              accountEmail: Text('test@gmail.com'),
               //currentAccountPicture: Image.network('https://via.placeholder.com/600/24f355'),),
-              currentAccountPicture: Image.asset('assets/images/MyPicture.png'),),
+              //currentAccountPicture: Image.asset('assets/images/MyPicture.png'),),
             SizedBox(
               height: 5,
             ),
